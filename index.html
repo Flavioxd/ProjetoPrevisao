@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
+    <title>Dev Previsão</title>
+</head>
+
+<body>
+
+    <div class="caixa-maior">
+            <form onsubmit="event.preventDefault()">
+            <input onkeypress="handle(event)" class="input-cidade" placeholder="Digite o nome da cidade">
+            <button onclick="cliqueiNoBotao()">
+            </form>
+
+        <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg">
+        </button>
+
+        <div class="caixa-media">
+            <h2 class="cidade">Tempo em Extrema</h2>
+
+            <div class="caixa-menor-2">
+                <img class="icone-2" src="/pngtree-vector-wind-icon-png-image_966321-removebg-preview.png">
+                <p class="vento">Vento: 11 km/h</p>
+            </div>
+
+            <div class="caixa-menor-1">
+                <img class="icone-1" src="https://openweathermap.org/img/wn/04n.png">
+                <p class="descricao">Nuvens Dispersas</p>
+            </div>
+
+            <div class="caixa-menor-3">
+                <img class="icone-3" src="/image-removebg-preview.png">
+                <p class="umidade">Umidade: 70%</p>
+            </div>
+
+            <div class="caixa-menor-4">
+                <img class="icone-4" src="/temperature.png">
+                <p class="temp">21°C</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
